@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        
+        <title>Google Map API</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <div class="container pt-3 pb-4">
+            <h1 class="text-uppercase text-center">GET in touch</h1>
+            <p class="text-uppercase text-muted text-small text-center">sample contact form</p>
+        </div>
+        <div class="wrapper mb-5">
+            <span class="icon-bar showme" style="">
+                <i class="fas fa-bars"></i>
+            </span>
+            <div class="row no-gutters">
+                <div class="col-md-4 side">
+                    <div class="search-container">
+                        <span class="icon-holder">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <input type="text" placeholder="Search">
+                        <span class="icon-holder closeme">
+                            <i class="fas fa-times"></i>
+                        </span>
+                    </div>
+                    <div class="contact-container">
+                        <h1>Contact Me</h1>
+                        <p>Write me a message, I am always happy to answer any questions might have.</p>
+                        <label class="text-uppercase">your name (required)</label>
+                        <input type="text" class="d-block w-100">
+                        <label class="text-uppercase mt-3">Your message</label>
+                        <textarea class="d-block w-100"></textarea>
+                        <button class="btn btn-secondary text-uppercase mt-3 text-small">Send Message</button>
+                    </div>
+                    <div class="contact-footer">
+                        <hr>
+                        <ul class="list-inline text-center pb-2">
+                            <li class="list-inline-item"><i class="fab fa-facebook"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-linkedin"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-8 map" id="map">
+                    
+                </div>
+            </div>
+        </div>
+        <p class="text-center text-small text-muted"><i class="fas fa-heart"></i> Handcrafted by Sanjay PJ</p>
+        
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="assets/map-script.js"></script>
+        <!-- AIzaSyAwd0Fq2F00DkP1yTh2kjFxK3R1K_XXXD0 -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKX3jLnvK3WBgEJu0Q3Mq8_8oxasIrxCs&callback=initMap"
+        async defer></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <script src="assets/script.js"></script>
+        
+    </body>
+</html>
